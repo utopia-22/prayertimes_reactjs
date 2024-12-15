@@ -15,19 +15,19 @@ body {
     font-size: 45px;
 }
 
-.container-fluid {
+.container {
     background-color: rgba(255, 255, 255, 0.75);
     border-radius: 12px;
     border: 1px solid rgba(209, 213, 219, 0.3);
     width: 100%;
-    padding: 15px; /* Add padding for better spacing */
+    padding: 15px;
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
 @media (max-width: 768px) {
-    .container-fluid {
-        padding: 15px; /* Adjust padding for smaller screens */
+    .container {
+        padding: 15px; 
     }
 
     .title {
