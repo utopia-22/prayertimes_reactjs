@@ -2,14 +2,3 @@
   text-align: center;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-
-.title {
-  font-size: 45px;
-  margin: 20px 0;
-}
-
-@media (max-width: 768px) {
-  .title {
-    font-size: 30px; /* Adjust font size for smaller screens */
-  }
-}
