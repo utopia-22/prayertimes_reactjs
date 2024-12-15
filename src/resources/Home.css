@@ -26,6 +26,32 @@ body {
     margin-top: 20px;
 	margin-bottom: 20px;
 }
+
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+        height: auto;
+    }
+
+    .title {
+        font-size: 30px;
+    }
+
+    .prayer-stats {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .city select {
+        width: 100%;
+    }
+
+    .city button {
+        width: 45px;
+        height: 45px;
+    }
+}
+
 .city {
     display: flex;
     justify-content: center;
@@ -33,6 +59,7 @@ body {
     gap: 15px;
     padding-top: 10px;
 }
+
 .city select {
     display: flex;
     width: 80%;
@@ -47,6 +74,7 @@ body {
     color: #1c1c1c;
     border-radius: 40px;
 }
+
 .city button {
     display: flex;
     justify-content: center;
@@ -61,6 +89,7 @@ body {
     box-shadow: 7px 4px 15px 0px rgba(0,0,0,0.34);
     border: none;
 }
+
 .content {
     display: flex;
     flex-wrap: wrap;
@@ -68,6 +97,7 @@ body {
     align-items: center;
     gap: 10px;
 }
+
 .prayer-stats {
     display: flex;
     flex-direction: row; 
@@ -75,6 +105,7 @@ body {
     gap: 60px;
     margin-top: 20px;
 }
+
 .prayer-stats .prayer {
     background-color: #40A2E3;
     width: 150px;
