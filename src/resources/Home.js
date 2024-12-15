@@ -156,7 +156,7 @@ const Home = () => {
 		<>
 			<div>
 				<form>
-					<div className='container-fluid'>
+					<div className='container'>
 						<h1 className="title">Waktu Solat</h1>
 						<div className='city'>
 							<select value={kodtempat} onChange={handleLocationChange}>
