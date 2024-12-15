@@ -9,28 +9,25 @@ body {
 
 
 .title {
-	margin-top: 10px;
-	margin-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     text-transform: uppercase;
-	font-size: 45px;
+    font-size: 45px;
 }
 
-.container {
+.container-fluid {
     background-color: rgba(255, 255, 255, 0.75);
     border-radius: 12px;
     border: 1px solid rgba(209, 213, 219, 0.3);
     width: 100%;
-    height: auto;
-    margin: auto;
-    border-radius: 12px;
+    padding: 15px; /* Add padding for better spacing */
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
 @media (max-width: 768px) {
-    .container {
-        width: 90%;
-        height: auto;
+    .container-fluid {
+        padding: 15px; /* Adjust padding for smaller screens */
     }
 
     .title {
@@ -42,13 +39,8 @@ body {
         gap: 20px;
     }
 
-    .city select {
+    .city select, .city button {
         width: 100%;
-    }
-
-    .city button {
-        width: 45px;
-        height: 45px;
     }
 }
 
